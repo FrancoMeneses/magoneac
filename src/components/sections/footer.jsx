@@ -1,11 +1,13 @@
 import { NavLink } from 'react-router-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons'
 
 export default function Footer() {
     return (
         <footer>
-            <div className="bg-fixed bg-center bg-cover" style={{ backgroundImage: 'url(/src/images/footer-bg.png)' }}>
+            <div className="bg-fixed bg-center bg-cover" style={{ backgroundImage: 'url(https://www.carruselmagonepuebla.com/uploads/1/4/1/0/141058682/background-images/895970556.png)' }}>
                 {/* <div className='flex flex-col text-white font-light font-sans text-xs items-center space-y-4 gap-x-8 py-8 lg:mr-16 lg:justify-between lg:flex-row lg:justify-center md:mr-24 md:justify-between md:flex-row md:justify-center md:text-md lg:text-xl'> */}
-                <div className='flex flex-col text-white font-light font-sans text-xs items-center content-center py-4 lg:flex-row lg:justify-center lg:px-4 md:px-4 md:justify-between md:flex-row md:justify-center md:text-md lg:text-xl'>
+                <div className='flex max-sm:flex-col text-white font-light font-sans text-xs items-center content-center py-4 lg:flex-row lg:justify-center lg:px-4 md:px-4 md:justify-between md:flex-row md:justify-center md:text-md lg:text-xl'>
                     <div className="flex flex-col gap-y-2 items-center lg:basis-4/12 md:basis-4/12">
                         <div>
                             <img src='https://www.carruselmagonepuebla.com/uploads/1/4/1/0/141058682/pie1_orig.png' />
@@ -38,21 +40,27 @@ export default function Footer() {
                     <div className="flex flex-col gap-y-2 basis-4/12 md:basis-4/12">
                         <div className="text-center text-lg md:text-xl lg:text-3xl font-semibold">Tel 2-85-07-10</div>
                         <div className="text-center text-lg font-semibold md:text-xl lg:text-3xl">WhatsApp 222 549 9669</div>
-                        <div className="text-center">informes@carruselmagonepuebla.com</div>
-                        <div className="flex flex-row justify-center">
+                        <div className="text-center mb-3">informes@carruselmagonepuebla.com</div>
+                        <div className="flex flex-row justify-center space-x-20 max-md:space-x-10">
                             <div className='w-8'>
                                 <a href='http://www.facebook.com' target='_blank'>
-                                    <img src='/src/images/svg/facebook.svg' className='hover:scale-125 duration-300' />
+                                    <div className='hover:scale-125 duration-300'>
+                                    <FontAwesomeIcon icon={faFacebook} className='fa-3x'/>
+                                    </div>
                                 </a>
                             </div>
                             <div className='w-8'>
                                 <a href='http://www.instagram.com' target='_blank'>
-                                    <img src='/src/images/svg/instagram.svg' className='hover:scale-125 duration-300' />
+                                    <div className='hover:scale-125 duration-300'>
+                                    <FontAwesomeIcon icon={faInstagram} className='fa-3x'/>
+                                    </div>
                                 </a>
                             </div>
                             <div className='w-8'>
                                 <a href='http://www.youtube.com' target='_blank'>
-                                    <img src='/src/images/svg/youtube.svg' className='hover:scale-125 duration-300' />
+                                    <div className='hover:scale-125 duration-300'>
+                                    <FontAwesomeIcon icon={faYoutube} className='fa-3x'/>
+                                    </div>
                                 </a>
                             </div>
                         </div>

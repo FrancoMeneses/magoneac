@@ -18,7 +18,7 @@ export default function Metodologia() {
                     <img className="mt-16" src="https://www.carruselmagonepuebla.com/uploads/1/4/1/0/141058682/metodologias_orig.png" />
                 </div>
             </div>
-            <div className="flex flex-col gap-y-6 py-8">
+            <div className="flex flex-col gap-y-14 py-8">
                 <div className="flex flex-col justify-evenly md:flex-row md:content-center md:justify-center md:items-center md:self-center lg:flex-row lg:content-center lg:justify-center lg:items-center lg:self-center">
                     <div className="flex flex-col justify-evenly text-center gap-y-6 md:w-2/3 lg:w-2/3">
                         <div>
