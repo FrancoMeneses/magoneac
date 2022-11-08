@@ -1,15 +1,20 @@
 import { useState } from 'react'
-import { NavLink } from 'react-router-dom'
+import { NavLink, ScrollRestoration } from 'react-router-dom'
 
 export default function Navbar() {
 
     const [navbarOpen, setNavbarOpen] = useState(false)
 
+    const handleClick = ((event) => {
+
+    }) 
+
     return (
+        <>
         <nav className="sticky z-10 top-0 flex flex-wrap items-center justify-between py-2.5 px-4 h-18 border bg-white font-light font-sans">
             <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
                 <div className='w-full relative flex flex-wrap justify-between lg:w-auto lg:static lg:block lg:justify-start'>
-                    <NavLink to='/inicio'>
+                    <NavLink to='/'>
                         <img className='w-40 h-12 max-w-xs max-h-10' src="https://www.carruselmagonepuebla.com/uploads/1/4/1/0/141058682/logo-pagina.jpg" alt='logo-pagina' />
                     </NavLink>
                     <button
@@ -30,25 +35,33 @@ export default function Navbar() {
                     <ul className='flex flex-col lg:flex-row lg:gap-1 list-none lg:ml-auto'>
                         <li className='px-3 py-2 transition duration-300 hover:text-amber-300 leading-snug'><NavLink end to='/' className={({ isActive }) =>
                             isActive ? "text-amber-300" : "undefined"
-                        }>Inicio</NavLink></li>
+                        }
+                            onClick={() => setNavbarOpen(false)}>Inicio</NavLink></li>
                         <li className='px-3 py-2 transition duration-300 hover:text-amber-300 leading-snug'><NavLink end to='/historia' className={({ isActive }) =>
                             isActive ? "text-amber-300" : "undefined"
-                        }>Historia</NavLink></li>
+                        }
+                            onClick={() => setNavbarOpen(false)}>Historia</NavLink></li>
                         <li className='px-3 py-2 transition duration-300 hover:text-amber-300 leading-snug'><NavLink end to='/metodologias' className={({ isActive }) =>
                             isActive ? "text-amber-300" : "undefined"
-                        }>Metodologias</NavLink></li>
+                        }
+                            onClick={() => setNavbarOpen(false)}>Metodologias</NavLink></li>
                         <li className='px-3 py-2 transition duration-300 hover:text-amber-300 leading-snug'><NavLink end to='/actividades' className={({ isActive }) =>
                             isActive ? "text-amber-300" : "undefined"
-                        }>Actividades</NavLink></li>
+                        }
+                            onClick={() => setNavbarOpen(false)}>Actividades</NavLink></li>
                         <li className='px-3 py-2 transition duration-300 hover:text-amber-300 leading-snug'><NavLink end to='/contacto' className={({ isActive }) =>
                             isActive ? "text-amber-300" : "undefined"
-                        }>Contacto</NavLink></li>
+                        }
+                            onClick={() => setNavbarOpen(false)}>Contacto</NavLink></li>
                         <li className='px-3 py-2 transition duration-300 hover:text-amber-300 leading-snug'><NavLink end to='/aviso-de-privacidad' className={({ isActive }) =>
                             isActive ? "text-amber-300" : "undefined"
-                        }>Aviso de Privacidad</NavLink></li>
+                        }
+                            onClick={() => setNavbarOpen(false)}>Aviso de Privacidad</NavLink></li>
                     </ul>
                 </div>
             </div>
         </nav>
+        <ScrollRestoration />
+        </>
     )
 }

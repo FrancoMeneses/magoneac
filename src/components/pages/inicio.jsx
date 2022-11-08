@@ -5,7 +5,7 @@ export default function Inicio() {
                 <div className="flex flex-col justify-end items-center pb-32 h-[44rem] text-white gap-8">
                     <div className=" font-sans font-extrabold text-center text-3xl md:text-5xl lg:text-7xl whitespace-normal">JUGANDO APRENDO</div>
                     <button className="rounded-full py-3 px-12 text-2xl md:text-3xl lg:text-4xl bg-[#f5c22a] font-bold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300">
-                        <a href="http://www.facebook.com" target='_blank'>INSCRIBETE AQUI</a>
+                        <a href="http://www.facebook.com" target='_blank'>INSCRÍBETE AQUI</a>
                     </button>
                 </div>
             </div>
