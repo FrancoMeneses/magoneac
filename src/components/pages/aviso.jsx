@@ -1,7 +1,7 @@
-export default function Aviso(){
+export function Aviso(){
     return(
         <div className="flex flex-col gap-y-12">
-        <div className="bg-local bg-top bg-no-repeat bg-cover object-scale-down h-[18rem] md:h-[36rem] lg:h-[36rem] flex flex-col justify-center scale-100" style={{ backgroundImage: 'url(https://www.carruselmagonepuebla.com/uploads/1/4/1/0/141058682/background-images/371196572.png)' }}>
+        <div className="bg-local bg-top bg-no-repeat bg-cover object-scale-down h-[18rem] md:h-[36rem] lg:h-[36rem] flex flex-col justify-center scale-100" style={{ backgroundImage: 'url(https://res.cloudinary.com/dfnqqumsc/image/upload/v1675113290/Portfolio/magoneEscuela/aviso-1.png)' }}>
                 <div>
                     <p className="text-white font-sans font-extrabold text-center text-3xl md:text-5xl lg:text-7xl px-12">AVISO DE PRIVACIDAD</p>
                 </div>

@@ -1,7 +1,7 @@
-export default function Actividades(){
+export function Actividades(){
     return(
         <div className="flex flex-col">
-            <div className="bg-local bg-top bg-no-repeat bg-cover object-scale-down h-60 md:h-[36rem] lg:h-[36rem] flex flex-col justify-center scale-100" style={{ backgroundImage: 'url(https://www.carruselmagonepuebla.com/uploads/1/4/1/0/141058682/background-images/1009917045.jpg)' }}>
+            <div className="bg-local bg-top bg-no-repeat bg-cover object-scale-down h-60 md:h-[36rem] lg:h-[36rem] flex flex-col justify-center scale-100" style={{ backgroundImage: 'url(https://res.cloudinary.com/dfnqqumsc/image/upload/v1675112400/Portfolio/magoneEscuela/bg-1-inicio.jpg)' }}>
                     <div>
                         <p className="text-white font-sans font-extrabold text-center text-3xl md:text-5xl lg:text-7xl whitespace-normal">ACTIVIDADES</p>
                     </div>

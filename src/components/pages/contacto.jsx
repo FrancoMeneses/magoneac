@@ -1,4 +1,4 @@
-export default function Contacto(){
+export function Contacto(){
     return(
         <div>
             <div>
@@ -6,7 +6,7 @@ export default function Contacto(){
                     <p className="font-bold text-4xl md:text-6xl lg:text-7xl text-[#077ddf]">CONTACTO</p>
                     <p className="font-bold text-4xl md:text-6xl lg:text-7xl text-[#077ddf]">MAGONE</p>
                 </div>
-                <div className="flex flex-col px-10 mb-12 gap-6 md:flex-row md:justify-center md:justify-between lg:flex-row lg:justify-center lg:justify-between">
+                <div className="flex flex-col px-10 mb-12 gap-6 md:flex-row md:justify-between lg:flex-row lg:justify-between">
                     <div className="text-center">
                         <p className="flex flex-col font-bold text-lg mb-2 lg:text-2xl">Horario</p>
                         <p className="md:text-lg lg:text-lg">L - V / 8:00 - 15:00</p>

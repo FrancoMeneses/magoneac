@@ -1,21 +1,15 @@
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
+import { Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-// import required modules
-import { Autoplay, Pagination, Navigation } from "swiper";
-
-
-export default function Metodologia() {
+export function Metodologia() {
     return (
         <div>
-            <div className="bg-local bg-top bg-no-repeat bg-cover" style={{ backgroundImage: 'url(https://www.carruselmagonepuebla.com/uploads/1/4/1/0/141058682/background-images/1300295768.png)' }}>
+            <div className="bg-local bg-top bg-no-repeat bg-cover" style={{ backgroundImage: 'url(https://res.cloudinary.com/dfnqqumsc/image/upload/v1675112991/Portfolio/magoneEscuela/met-1.png)' }}>
                 <div className="flex flex-col justify-center items-center pb-32 h-[44rem] lg:h-[60rem] md:h-[60rem] text-white">
-                    <img className="mt-16" src="https://www.carruselmagonepuebla.com/uploads/1/4/1/0/141058682/metodologias_orig.png" />
+                    <img className="mt-16" src="https://res.cloudinary.com/dfnqqumsc/image/upload/v1675113027/Portfolio/magoneEscuela/met-2.png" />
                 </div>
             </div>
             <div className="flex flex-col gap-y-14 py-8">
@@ -41,21 +35,21 @@ export default function Metodologia() {
                             <SwiperSlide>
                                 <img
                                     className="object-contain w-full h-96 md:h-80"
-                                    src="https://www.carruselmagonepuebla.com/uploads/1/4/1/0/141058682/mat1_orig.png"
+                                    src="https://res.cloudinary.com/dfnqqumsc/image/upload/v1675113075/Portfolio/magoneEscuela/met-s1-1.png"
                                     alt="image slide 1"
                                 />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img
                                     className="object-contain w-full h-96 md:h-80"
-                                    src="https://www.carruselmagonepuebla.com/uploads/1/4/1/0/141058682/mat2_orig.png"
+                                    src="https://res.cloudinary.com/dfnqqumsc/image/upload/v1675113075/Portfolio/magoneEscuela/met-s1-2.png"
                                     alt="image slide 2"
                                 />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img
                                     className="object-contain w-full h-96 md:h-80"
-                                    src="https://www.carruselmagonepuebla.com/uploads/1/4/1/0/141058682/mat3_orig.png"
+                                    src="https://res.cloudinary.com/dfnqqumsc/image/upload/v1675113075/Portfolio/magoneEscuela/met-s1-3.png"
                                     alt="image slide 3"
                                 />
                             </SwiperSlide>
@@ -90,21 +84,21 @@ export default function Metodologia() {
                             <SwiperSlide>
                                 <img
                                     className="object-contain w-full h-96 md:h-80"
-                                    src="https://www.carruselmagonepuebla.com/uploads/1/4/1/0/141058682/f2_orig.png"
+                                    src="https://res.cloudinary.com/dfnqqumsc/image/upload/v1675113133/Portfolio/magoneEscuela/met-s2-1.png"
                                     alt="image slide 1"
                                 />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img
                                     className="object-contain w-full h-96 md:h-80"
-                                    src="https://www.carruselmagonepuebla.com/uploads/1/4/1/0/141058682/f3_orig.png"
+                                    src="https://res.cloudinary.com/dfnqqumsc/image/upload/v1675113133/Portfolio/magoneEscuela/met-s2-2.png"
                                     alt="image slide 2"
                                 />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img
                                     className="object-contain w-full h-96 md:h-80"
-                                    src="https://www.carruselmagonepuebla.com/uploads/1/4/1/0/141058682/f1_orig.png"
+                                    src="https://res.cloudinary.com/dfnqqumsc/image/upload/v1675113133/Portfolio/magoneEscuela/met-s2-3.png"
                                     alt="image slide 3"
                                 />
                             </SwiperSlide>
@@ -139,21 +133,21 @@ export default function Metodologia() {
                             <SwiperSlide>
                                 <img
                                     className="object-contain w-full h-96 md:h-80"
-                                    src="https://www.carruselmagonepuebla.com/uploads/1/4/1/0/141058682/mf3_orig.png"
+                                    src="https://res.cloudinary.com/dfnqqumsc/image/upload/v1675113171/Portfolio/magoneEscuela/met-s3-1.png"
                                     alt="image slide 1"
                                 />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img
                                     className="object-contain w-full h-96 md:h-80"
-                                    src="https://www.carruselmagonepuebla.com/uploads/1/4/1/0/141058682/mf1_orig.png"
+                                    src="https://res.cloudinary.com/dfnqqumsc/image/upload/v1675113171/Portfolio/magoneEscuela/met-s3-2.png"
                                     alt="image slide 2"
                                 />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img
                                     className="object-contain w-full h-96 md:h-80"
-                                    src="https://www.carruselmagonepuebla.com/uploads/1/4/1/0/141058682/mf2_orig.png"
+                                    src="https://res.cloudinary.com/dfnqqumsc/image/upload/v1675113171/Portfolio/magoneEscuela/met-s3-3.png"
                                     alt="image slide 3"
                                 />
                             </SwiperSlide>
@@ -185,14 +179,14 @@ export default function Metodologia() {
                             <SwiperSlide>
                                 <img
                                     className="object-contain w-full h-96 md:h-80"
-                                    src="https://www.carruselmagonepuebla.com/uploads/1/4/1/0/141058682/i1_orig.png"
+                                    src="https://res.cloudinary.com/dfnqqumsc/image/upload/v1675113211/Portfolio/magoneEscuela/met-s4-1.png"
                                     alt="image slide 1"
                                 />
                             </SwiperSlide>
                             <SwiperSlide>
                                 <img
                                     className="object-contain w-full h-96 md:h-80"
-                                    src="https://www.carruselmagonepuebla.com/uploads/1/4/1/0/141058682/i2_orig.png"
+                                    src="https://res.cloudinary.com/dfnqqumsc/image/upload/v1675113211/Portfolio/magoneEscuela/met-s4-2.png"
                                     alt="image slide 2"
                                 />
                             </SwiperSlide>
