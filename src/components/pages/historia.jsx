@@ -40,7 +40,7 @@ export function Historia() {
                 </div>
                 <div className="w-full flex flex-col mt-12 gap-y-12 content-center lg:grid lg:grid-cols-3 lg:gap-12 md:grid md:grid-cols-2 md:place-items-center md:place-content-center lg:place-items-center lg:place-content-center">
                     <div className="flex flex-col items-center text-center gap-y-6">
-                        <img className="w-[150px]" src="src/assets/user.svg" />
+                        <img className="w-[150px]" src="https://res.cloudinary.com/dfnqqumsc/image/upload/v1675120776/Portfolio/magoneEscuela/abstract-user-flat-1.svg" />
                         <div className="text-center md:text-xl lg:text-2xl">
                             <p className="text-white">ESTHER GASPARIANO</p>
                             <p className="text-[#f5c22a] font-bold">Dirección Académica</p>
@@ -48,7 +48,7 @@ export function Historia() {
                         <p className="text-white md:text-xl lg:text-xl lg:w-80 lg:h-40 md:w-80 md:h-40">Excelente liderazgo y manejo de equipo de trabajo, busca las mejores capacitaciones para nuestra docencia académica</p>
                     </div>
                     <div className="flex flex-col items-center justify-evenly text-center gap-y-6">
-                        <img className="w-[150px]" src="src/assets/user.svg" />
+                        <img className="w-[150px]" src="https://res.cloudinary.com/dfnqqumsc/image/upload/v1675120776/Portfolio/magoneEscuela/abstract-user-flat-1.svg" />
                         <div className="flex flex-col text-center md:text-xl lg:text-2xl">
                             <p className="text-white">BLANCA ESTELA RAMIREZ</p>
                             <p className="text-[#f5c22a] font-bold">Primaria</p>
@@ -56,7 +56,7 @@ export function Historia() {
                         <p className="text-white md:text-xl lg:text-xl lg:w-80 lg:h-40 md:w-80 md:h-40">Cuenta con especialidad CIME en matemáticas constructivas a nivel primaria</p>
                     </div>
                     <div className="flex flex-col items-center justify-evenly text-center gap-y-6">
-                        <img className="w-[150px]" src="src/assets/user.svg" />
+                        <img className="w-[150px]" src="https://res.cloudinary.com/dfnqqumsc/image/upload/v1675120776/Portfolio/magoneEscuela/abstract-user-flat-1.svg" />
                         <div className="text-center md:text-xl lg:text-2xl">
                             <p className="text-white">JESSICA ANEL MARTINEZ</p>
                             <p className="text-[#f5c22a] font-bold">Preescolar</p>
@@ -64,7 +64,7 @@ export function Historia() {
                         <p className="text-white md:text-xl lg:text-xl lg:w-80 lg:h-40 md:w-80 md:h-40">Experta en educación preescolar y matemáticas constructivas</p>
                     </div>
                     <div className="flex flex-col items-center text-center justify-evenly gap-y-6">
-                        <img className="w-[150px]" src="src/assets/user.svg" />
+                        <img className="w-[150px]" src="https://res.cloudinary.com/dfnqqumsc/image/upload/v1675120776/Portfolio/magoneEscuela/abstract-user-flat-1.svg" />
                         <div className="text-center md:text-xl lg:text-2xl">
                             <p className="text-white">JUDITH GASPARIANO</p>
                             <p className="text-[#f5c22a] font-bold">Dirección General</p>
@@ -72,7 +72,7 @@ export function Historia() {
                         <p className="text-white md:text-xl lg:text-xl lg:w-80 lg:h-40 md:w-80 md:h-40">Ayuda a explorar de forma dinámica e intuitiva</p>
                     </div>
                     <div className="flex flex-col items-center text-center justify-evenly gap-y-6">
-                        <img className="w-[150px]" src="src/assets/user.svg" />
+                        <img className="w-[150px]" src="https://res.cloudinary.com/dfnqqumsc/image/upload/v1675120776/Portfolio/magoneEscuela/abstract-user-flat-1.svg" />
                         <div className="text-center md:text-xl lg:text-2xl">
                             <p className="text-white">ELVIA SAUCE MANCILLA</p>
                             <p className="text-[#f5c22a] font-bold">Primaria</p>
@@ -80,7 +80,7 @@ export function Historia() {
                         <p className="text-white md:text-xl lg:text-xl lg:w-80 lg:h-40 md:w-80 md:h-40">A logrado que alumnos de 6to grado lleguen a la fase estatal de la olimpiada de conocimiento infantil</p>
                     </div>
                     <div className="flex flex-col items-center text-center justify-evenly gap-y-6">
-                        <img className="w-[150px]" src="src/assets/user.svg" />
+                        <img className="w-[150px]" src="https://res.cloudinary.com/dfnqqumsc/image/upload/v1675120776/Portfolio/magoneEscuela/abstract-user-flat-1.svg" />
                         <div className="text-center md:text-xl lg:text-2xl">
                             <p className="text-white">ALEXANDRO LARA COSIO</p>
                             <p className="text-[#f5c22a] font-bold">Ciencias y Steam</p>
