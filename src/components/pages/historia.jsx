@@ -1,6 +1,6 @@
 export function Historia() {
     return (
-        <main>
+        <main className="font-body">
             <section className="bg-fixed bg-top bg-no-repeat bg-cover" style={{ backgroundImage: 'url(https://res.cloudinary.com/dfnqqumsc/image/upload/v1675112909/Portfolio/magoneEscuela/historia-1.png)' }}>
                 <div className="flex flex-col justify-evenly md:justify-evenly items-center h-[40rem] lg:h-[60rem] md:h-[60rem] text-white">
                     <div>

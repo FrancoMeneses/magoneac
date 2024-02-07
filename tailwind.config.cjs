@@ -7,6 +7,9 @@ module.exports = {
       colors: {
       },
     },
+    fontFamily: {
+      'body' : '"Open Sans"'
+    }
   },
   corePlugins: {
     aspectRatio: false,

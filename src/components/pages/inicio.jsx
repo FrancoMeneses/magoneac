@@ -1,9 +1,9 @@
 export function Inicio() {
     return (
-        <main>
+        <main className="font-body">
             <section className="bg-local bg-center bg-no-repeat bg-cover md:bg-top lg:bg-top" style={{ backgroundImage: 'url(https://res.cloudinary.com/dfnqqumsc/image/upload/v1675112400/Portfolio/magoneEscuela/bg-1-inicio.jpg)' }}>
                 <div className="flex flex-col justify-end items-center pb-32 h-[44rem] text-white gap-8">
-                    <div className=" font-sans font-extrabold text-center text-3xl md:text-5xl lg:text-7xl whitespace-normal drop-shadow-md">JUGANDO APRENDO</div>
+                    <div className=" font-extrabold text-center text-3xl md:text-5xl lg:text-7xl whitespace-normal drop-shadow-md backdrop-blur-sm rounded-full px-4 py-1">JUGANDO APRENDO</div>
                     <button className="rounded-full py-3 px-12 text-2xl md:text-3xl lg:text-4xl bg-[#f5c22a] font-bold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 shadow-md">
                         <a href="http://www.facebook.com" target='_blank'>INSCRÍBETE AQUI</a>
                     </button>
@@ -44,17 +44,17 @@ export function Inicio() {
                     </div>
                 </div>
             </section>
-            <section className="bg-fixed bg-top bg-no-repeat bg-cover md:bg-[center_top_-10rem] lg:bg-[center_top_-15rem]" style={{ backgroundImage: 'url(https://res.cloudinary.com/dfnqqumsc/image/upload/v1675112556/Portfolio/magoneEscuela/preescolar.png)' }}>
+            <section className="md:bg-fixed bg-top bg-no-repeat bg-cover md:bg-[center_top_-10rem] lg:bg-[center_top_-15rem]" style={{ backgroundImage: 'url(https://res.cloudinary.com/dfnqqumsc/image/upload/v1675112556/Portfolio/magoneEscuela/preescolar.png)' }}>
                 <div className="flex flex-col justify-start items-center pb-32 h-[44rem] lg:h-[60rem] md:h-[60rem] text-white">
                     <img className="mt-16" src="https://res.cloudinary.com/dfnqqumsc/image/upload/v1675112649/Portfolio/magoneEscuela/pres1_orig.png" alt="Preescolar" />
                 </div>
             </section>
-            <section className="bg-fixed bg-top bg-no-repeat bg-cover md:bg-[center_top_-5rem] lg:bg-[center_top_-15rem]" style={{ backgroundImage: 'url(https://res.cloudinary.com/dfnqqumsc/image/upload/v1675112560/Portfolio/magoneEscuela/16.png)' }}>
+            <section className="md:bg-fixed bg-top bg-no-repeat bg-cover md:bg-[center_top_-5rem] lg:bg-[center_top_-15rem]" style={{ backgroundImage: 'url(https://res.cloudinary.com/dfnqqumsc/image/upload/v1675112560/Portfolio/magoneEscuela/16.png)' }}>
                 <div className="flex flex-col justify-start items-center pb-32 h-[44rem] lg:h-[60rem] md:h-[60rem] text-white">
                     <img className="mt-16" src="https://res.cloudinary.com/dfnqqumsc/image/upload/v1675112633/Portfolio/magoneEscuela/17.png" alt="Primaria" />
                 </div>
             </section>
-            <section className="bg-fixed bg-top bg-no-repeat bg-cover" style={{ backgroundImage: 'url(https://res.cloudinary.com/dfnqqumsc/image/upload/v1675112566/Portfolio/magoneEscuela/18.png)' }}>
+            <section className="md:bg-fixed bg-top bg-no-repeat bg-cover" style={{ backgroundImage: 'url(https://res.cloudinary.com/dfnqqumsc/image/upload/v1675112566/Portfolio/magoneEscuela/18.png)' }}>
                 <div className="flex flex-col justify-start items-center pb-32 h-[44rem] lg:h-[60rem] md:h-[60rem] text-white">
                     <img className="mt-16" src="https://res.cloudinary.com/dfnqqumsc/image/upload/v1675112660/Portfolio/magoneEscuela/19.png" alt="Amamos lo que hacemos y tenemos 4 razones" />
                 </div>

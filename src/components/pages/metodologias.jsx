@@ -6,7 +6,7 @@ import "swiper/css/navigation";
 
 export function Metodologia() {
     return (
-        <main>
+        <main className="font-body">
             <section className="bg-local bg-top bg-no-repeat bg-cover" style={{ backgroundImage: 'url(https://res.cloudinary.com/dfnqqumsc/image/upload/v1675112991/Portfolio/magoneEscuela/met-1.png)' }}>
                 <div className="flex flex-col justify-center items-center pb-32 h-[44rem] lg:h-[60rem] md:h-[60rem] text-white">
                     <img className="mt-16" src="https://res.cloudinary.com/dfnqqumsc/image/upload/v1675113027/Portfolio/magoneEscuela/met-2.png" alt="Metodologias 2022" />

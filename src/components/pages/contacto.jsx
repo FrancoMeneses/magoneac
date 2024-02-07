@@ -1,6 +1,6 @@
 export function Contacto(){
     return(
-        <main>
+        <main className="font-body">
             <section>
                 <div className="flex flex-col text-center my-24">
                     <p className="font-bold text-4xl md:text-6xl lg:text-7xl text-[#077ddf]">CONTACTO</p>
