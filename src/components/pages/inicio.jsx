@@ -3,7 +3,7 @@ export function Inicio() {
         <main className="font-body">
             <section className="bg-local bg-center bg-no-repeat bg-cover md:bg-top lg:bg-top" style={{ backgroundImage: 'url(https://res.cloudinary.com/dfnqqumsc/image/upload/v1675112400/Portfolio/magoneEscuela/bg-1-inicio.jpg)' }}>
                 <div className="flex flex-col justify-end items-center pb-32 h-[44rem] text-white gap-8">
-                    <div className=" font-extrabold text-center text-3xl md:text-5xl lg:text-7xl whitespace-normal drop-shadow-md backdrop-blur-sm rounded-full px-4 py-1">JUGANDO APRENDO</div>
+                    <div className=" font-extrabold text-center text-3xl md:text-5xl lg:text-7xl whitespace-normal drop-shadow-md backdrop-blur-sm rounded-full px-4 py-1 lg:px-8 lg:py-3">JUGANDO APRENDO</div>
                     <button className="rounded-full py-3 px-12 text-2xl md:text-3xl lg:text-4xl bg-[#f5c22a] font-bold transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 shadow-md">
                         <a href="http://www.facebook.com" target='_blank'>INSCRÍBETE AQUI</a>
                     </button>
